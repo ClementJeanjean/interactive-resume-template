@@ -200,6 +200,10 @@ export const resumeConfig: ResumeConfig = {
             'Email and phone correspondence.',
           ],
         },
+        env: {
+          fr: 'Suite Office / Gestion administrative',
+          en: 'Office Suite / Administrative management',
+        },
       },
     },
     {
@@ -227,6 +231,10 @@ export const resumeConfig: ResumeConfig = {
             'Organization of events and stock enrichment.',
             'Creation of visual communication materials.',
           ],
+        },
+        env: {
+          fr: 'Canva / Réseaux sociaux',
+          en: 'Canva / Social media',
         },
       },
     },
@@ -270,38 +278,4 @@ export const resumeConfig: ResumeConfig = {
       details: [
         { fr: 'Atelier de modelage (2012-2020)', en: 'Sculpting workshop (2012-2020)' },
       ],
-    },
-    {
-      title: { fr: 'Tennis', en: 'Tennis' },
-      details: [
-        { fr: 'Pratique en club (2008-2018)', en: 'Club practice (2008-2018)' },
-      ],
-    },
-  ],
-
-  theme: {
-    preset: 'forest',
-  },
-
-  labels: {
-    sections: {
-      contact: { fr: 'CONTACT', en: 'CONTACT' },
-      skills: { fr: 'COMPÉTENCES', en: 'SKILLS' },
-      experience: { fr: 'EXPÉRIENCES', en: 'EXPERIENCES' },
-      education: { fr: 'FORMATION', en: 'EDUCATION' },
-      hobbies: { fr: 'LOISIRS', en: 'HOBBIES' },
-    },
-    experience: {
-      mainTasks: { fr: 'Missions principales :', en: 'Main tasks:' },
-      moreTasks: { fr: 'autres missions...', en: 'other tasks...' },
-      training: { fr: 'Formations :', en: 'Training:' },
-      techEnv: { fr: 'Env. technique :', en: 'Tech. env:' },
-      technologies: { fr: 'Technologies', en: 'Technologies' },
-    },
-    actions: {
-      clickHint: { fr: 'Cliquez sur les expériences pour voir plus de détails', en: 'Click on experiences for more details' },
-      switchTheme: { fr: 'Changer le thème', en: 'Switch theme' },
-      downloadPdf: { fr: 'Télécharger le PDF', en: 'Download PDF' },
-    },
-  },
-};
+   
