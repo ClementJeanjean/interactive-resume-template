@@ -3,6 +3,7 @@ import type { ResumeConfig } from './types';
 export const resumeConfig: ResumeConfig = {
   personal: {
     name: 'Clément Jeanjean',
+    photo: '/images/photo.jpg',
     photoBackEmoji: '🧬',
     title: {
       fr: 'Ingénieur en Biologie Computationnelle',
