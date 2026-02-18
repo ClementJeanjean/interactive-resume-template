@@ -17,10 +17,7 @@ export const resumeConfig: ResumeConfig = {
 
   seo: {
     title: 'Clément Jeanjean — Ingénieur en Biologie Computationnelle',
-    description: {
-      fr: 'CV interactif de Clément Jeanjean, ingénieur en biologie computationnelle spécialisé en microbiologie, biologie moléculaire et bioinformatique.',
-      en: 'Interactive resume of Clément Jeanjean, Computational Biology Engineer specialized in microbiology, molecular biology, and bioinformatics.',
-    },
+    description: 'CV interactif de Clément Jeanjean, ingénieur en biologie computationnelle spécialisé en microbiologie, biologie moléculaire et bioinformatique.', // Chaîne simple
   },
 
   languages: {
