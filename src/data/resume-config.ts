@@ -17,7 +17,10 @@ export const resumeConfig: ResumeConfig = {
 
   seo: {
     title: 'Clément Jeanjean — Ingénieur en Biologie Computationnelle',
-    description: 'CV interactif de Clément Jeanjean, ingénieur en biologie computationnelle spécialisé en microbiologie, biologie moléculaire et bioinformatique.',
+    description: {
+      fr: 'CV interactif de Clément Jeanjean, ingénieur en biologie computationnelle spécialisé en microbiologie, biologie moléculaire et bioinformatique.',
+      en: 'Interactive resume of Clément Jeanjean, Computational Biology Engineer specialized in microbiology, molecular biology, and bioinformatics.',
+    },
   },
 
   languages: {
@@ -116,7 +119,7 @@ export const resumeConfig: ResumeConfig = {
       period: { fr: '2025 (6 mois)', en: '2025 (6 months)' },
       description: {
         fr: 'Nettoyage, analyse et visualisation de données Whole Genome Sequencing (11 espèces d\'ignames).',
-        en: 'Cleaning, analysis and visualization of Whole Genome Sequencing data (11 yam species).',
+        en: 'Cleaning, analysis, and visualization of Whole Genome Sequencing data (11 yam species).',
       },
       techs: ['R', 'Python', 'Bash', 'K-mers'],
       isHighlighted: true,
@@ -152,6 +155,7 @@ export const resumeConfig: ResumeConfig = {
         en: 'Development of an application for harmonizing institutional data and an application for mapping seabird behavior.',
       },
       techs: ['R', 'R Shiny'],
+      isHighlighted: false,
       details: {
         context: {
           fr: 'Projet de valorisation des données scientifiques.',
@@ -181,9 +185,10 @@ export const resumeConfig: ResumeConfig = {
       period: { fr: 'Juillet 2023 - Septembre 2023', en: 'July 2023 - September 2023' },
       description: {
         fr: 'Inscription administrative des nouveaux étudiants, gestion des dossiers et communication.',
-        en: 'Administrative registration of new students, file management and communication.',
+        en: 'Administrative registration of new students, file management, and communication.',
       },
       techs: [],
+      isHighlighted: false,
       details: {
         context: {
           fr: 'Travail en équipe de 10 vacataires.',
@@ -213,9 +218,10 @@ export const resumeConfig: ResumeConfig = {
       period: { fr: 'Juillet 2022 - Février 2024', en: 'July 2022 - February 2024' },
       description: {
         fr: 'Gestion du stock de BD, conception d\'affiches et communication sur les réseaux sociaux.',
-        en: 'Management of the comic book stock, poster design and social media communication.',
+        en: 'Management of the comic book stock, poster design, and social media communication.',
       },
       techs: [],
+      isHighlighted: false,
       details: {
         context: {
           fr: 'Animation d\'un club étudiant de 50+ membres.',
@@ -277,4 +283,38 @@ export const resumeConfig: ResumeConfig = {
       details: [
         { fr: 'Atelier de modelage (2012-2020)', en: 'Sculpting workshop (2012-2020)' },
       ],
-   
+    },
+    {
+      title: { fr: 'Tennis', en: 'Tennis' },
+      details: [
+        { fr: 'Pratique en club (2008-2018)', en: 'Club practice (2008-2018)' },
+      ],
+    },
+  ],
+
+  theme: {
+    preset: 'forest',
+  },
+
+  labels: {
+    sections: {
+      contact: { fr: 'CONTACT', en: 'CONTACT' },
+      skills: { fr: 'COMPÉTENCES', en: 'SKILLS' },
+      experience: { fr: 'EXPÉRIENCES PROFESSIONNELLES', en: 'PROFESSIONAL EXPERIENCES' },
+      education: { fr: 'FORMATION', en: 'EDUCATION' },
+      hobbies: { fr: 'LOISIRS', en: 'HOBBIES' },
+    },
+    experience: {
+      mainTasks: { fr: 'Missions principales :', en: 'Main tasks:' },
+      moreTasks: { fr: 'autres missions...', en: 'other tasks...' },
+      training: { fr: 'Formations :', en: 'Training:' },
+      techEnv: { fr: 'Env. technique :', en: 'Tech. env:' },
+      technologies: { fr: 'Technologies', en: 'Technologies' },
+    },
+    actions: {
+      clickHint: { fr: 'Cliquez sur les expériences pour voir plus de détails', en: 'Click on experiences for more details' },
+      switchTheme: { fr: 'Changer le thème', en: 'Switch theme' },
+      downloadPdf: { fr: 'Télécharger le PDF', en: 'Download PDF' },
+    },
+  },
+};
