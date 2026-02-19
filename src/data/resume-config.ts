@@ -5,19 +5,19 @@ export const resumeConfig: ResumeConfig = {
     name: 'Clément Jeanjean',
     photoBackEmoji: '🧬',
     title: {
-      fr: 'Ingénieur en Biologie Computationnelle',
-      en: 'Computational Biology Engineer',
+      fr: 'Ingénieur INSA Génie Biologique',
+      en: 'Engineer in biological engineering',
     },
     subtitle: {
-      fr: 'Spécialisé en microbiologie, biologie moléculaire et bioinformatique',
-      en: 'Specialized in microbiology, molecular biology and bioinformatics',
+      fr: 'Spécialisé en bioinformatique',
+      en: 'Specialized in bioinformatics',
     },
     location: 'Aubais, Gard (30), France',
   },
 
   seo: {
-    title: 'Clément Jeanjean — Ingénieur en Biologie Computationnelle',
-    description: 'CV interactif de Clément Jeanjean, ingénieur en biologie computationnelle spécialisé en microbiologie, biologie moléculaire et bioinformatique.', // Chaîne simple
+    title: 'Clément Jeanjean — Ingénieur INSA Génie Biologique',
+    description: 'CV interactif de Clément Jeanjean, ingénieur INSA en génie biologique spécialisé en bioinformatique.', // Chaîne simple
   },
 
   languages: {
@@ -38,9 +38,9 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Langues', en: 'Languages' },
       type: 'languages',
       items: [
-        { name: { fr: 'Français', en: 'French' }, level: { fr: 'Natif', en: 'Native' } },
-        { name: { fr: 'Anglais', en: 'English' }, level: { fr: 'C1 (TOEIC 970)', en: 'C1 (TOEIC 970)' } },
-        { name: { fr: 'Espagnol', en: 'Spanish' }, level: { fr: 'B2', en: 'B2' } },
+        { name: { fr: 'Français - ', en: 'French - ' }, level: { fr: 'Natif', en: 'Native' } },
+        { name: { fr: 'Anglais - ', en: 'English - ' }, level: { fr: 'C1 (TOEIC 970/990)', en: 'C1 (TOEIC 970/990)' } },
+        { name: { fr: 'Espagnol - ', en: 'Spanish - ' }, level: { fr: 'B2', en: 'B2' } },
       ],
     },
     {
@@ -65,37 +65,35 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
     {
-      title: { fr: 'Biologie moléculaire', en: 'Molecular Biology' },
+      title: { fr: 'Outils & Méthodologies', en: 'Tools & Methodologies' },
       type: 'badges',
       items: [
-        { name: 'PCR' },
-        { name: 'CRISPR/Cas9' },
-        { name: 'RNA-Seq' },
+        { name: 'GitHub' },
+        { name: 'GitLab' },
+        { name: 'Zotero' },
+        { name: 'Labview' },
+        { name: 'ConSurf' },
       ],
     },
     {
-      title: { fr: 'Caractérisation de biomolécules', en: 'Biomolecule Characterization' },
-      type: 'badges',
+      title: { fr: 'Biologie moléculaire', en: 'Molecular Biology' },
+      type: 'text',
       items: [
-        { name: 'Chromatographie' },
-        { name: 'Électrophorèse' },
-        { name: 'Spectroscopie' },
-        { name: 'RMN' },
+        { name: { fr: 'PCR, CRISPR/Cas9, RNA-Seq', en: 'PCR, CRISPR/Cas9, RNA-Seq' } },
+      ],      
+    },
+    {
+      title: { fr: 'Caractérisation de biomolécules', en: 'Biomolecule Characterization' },
+      type: 'text',
+      items: [
+        { name: { fr: 'Chromatographie, Électrophorèse, Spectroscopie, RMN', en: 'Chromatography, Electrophoresis, Spectroscopy, RMN' } },
       ],
     },
     {
       title: { fr: 'Culture cellulaire', en: 'Cell Culture' },
-      type: 'badges',
-      items: [
-        { name: 'Milieux de culture' },
-        { name: 'Repiquage' },
-      ],
-    },
-    {
-      title: { fr: 'Outils & Méthodologies', en: 'Tools & Methodologies' },
       type: 'text',
       items: [
-        { name: { fr: 'GitHub/GitLab, Zotero, SLURM, Labview', en: 'GitHub/GitLab, Zotero, SLURM, Labview' } },
+        { name: { fr: 'Préparation des milieux de culture, Repiquage, Suivi de croissance', en: 'Preparation of culture medium, subculturing, growth monitoring' } },
       ],
     },
     {
@@ -270,21 +268,21 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
     {
-      title: { fr: 'Échecs', en: 'Chess' },
+      title: { fr: 'Échecs (2009-2021)', en: 'Chess (2009-2021)' },
       details: [
-        { fr: 'Pratique en club et compétition (2009-2021)', en: 'Club and competition practice (2009-2021)' },
+        { fr: 'Club et compétition. Capacités analytiques, stratégiques, d'anticipation, de dépassement de soi, esprit d'équipe', en: 'Club and tournaments. Analytical and strategic mindset, anticipatory skills, team spirit, self improvement.' },
       ],
     },
     {
-      title: { fr: 'Modelage', en: 'Sculpting' },
+      title: { fr: 'Poterie (2012-2020)', en: 'Clay modeling (2012-2020)' },
       details: [
-        { fr: 'Atelier de modelage (2012-2020)', en: 'Sculpting workshop (2012-2020)' },
+        { fr: 'Activité manuelle, créativité, patience et minutie', en: 'Manual activity, creativity, patience and meticulousness' },
       ],
     },
     {
-      title: { fr: 'Tennis', en: 'Tennis' },
+      title: { fr: 'Tennis (2008-2018)', en: 'Tennis (2008-2018)' },
       details: [
-        { fr: 'Pratique en club (2008-2018)', en: 'Club practice (2008-2018)' },
+        { fr: 'Pratique en club et compétitions locales en équipe', en: 'Club practice and local team tournaments' },
       ],
     },
   ],
