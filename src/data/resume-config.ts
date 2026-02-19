@@ -283,8 +283,8 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Tennis (2008-2018)', en: 'Tennis (2008-2018)' },
       details: [
         { fr: 'Pratique en club et compétitions locales en équipe', en: 'Club practice and local team tournaments' },
-      ],
-    },
+      ]
+    }
   ],
 
   theme: {
