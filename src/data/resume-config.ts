@@ -269,7 +269,7 @@ export const resumeConfig: ResumeConfig = {
     {
       title: { fr: 'Échecs (2009-2021)', en: 'Chess (2009-2021)' },
       details: [
-        { fr: 'Club et compétition. Capacités analytiques, stratégiques, d'anticipation, de dépassement de soi, esprit d'équipe', en: 'Club and tournaments. Analytical and strategic mindset, anticipatory skills, self-improvement, teamwork' },
+        { fr: 'Club et compétition. Capacités analytiques, stratégiques, d\'anticipation, de dépassement de soi, esprit d\'équipe', en: 'Club and tournaments. Analytical and strategic mindset, anticipatory skills, self-improvement, teamwork' },
       ],
     },
     {
